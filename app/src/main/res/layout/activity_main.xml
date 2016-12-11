@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.javaquiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="1. What is the extension for java source code files?"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:textSize="16dp"
+                    android:textColor="@android:color/black"
+                    android:text="."/>
+                <EditText
+                    android:id="@+id/editText1"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:textSize="16dp"
+                    android:textColor="@android:color/black"
+                    android:hint="java"
+                    android:cursorVisible="true"
+                    android:inputType="text"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="2. Which tool is included in the JDK?"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+
+            <CheckBox
+                android:id="@+id/checkBox1A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:splitMotionEvents="false"
+                android:textSize="16dp"
+                android:textColor="@android:color/black"
+                android:text="java"/>
+            <CheckBox
+                android:id="@+id/checkBox1B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:splitMotionEvents="false"
+                android:textSize="16dp"
+                android:textColor="@android:color/black"
+                android:text="javac"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="3. Choose the right statement."
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+            <CheckBox
+                android:id="@+id/checkBox2A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:splitMotionEvents="false"
+                android:textSize="16dp"
+                android:textColor="@android:color/black"
+                android:text="Class file contain abstract instructions for JVM"/>
+            <CheckBox
+                android:id="@+id/checkBox2B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:splitMotionEvents="false"
+                android:textSize="16dp"
+                android:textColor="@android:color/black"
+                android:text="Same bytecode can be run on different JVMS"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="4 Which one of the following statements is true?"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/radioButton1A"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:splitMotionEvents="false"
+                    android:text="Java has a huge developer community"
+                    android:textSize="16dp"
+                    android:textColor="@android:color/black"/>
+                <RadioButton
+                    android:id="@+id/radioButton1B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:splitMotionEvents="false"
+                    android:text="Java is used only in web applications"
+                    android:textSize="16dp"
+                    android:textColor="@android:color/black"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="5. How are Java applications distributed?"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                tools:ignore="HardcodedText" />
+            <RadioGroup
+                android:id="@+id/radioGroup2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/radioButton2A"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:splitMotionEvents="false"
+                    android:text="Using .java source files"
+                    android:textSize="16dp"
+                    android:textColor="@android:color/black"/>
+                <RadioButton
+                    android:id="@+id/radioButton2B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:splitMotionEvents="false"
+                    android:text="Using Java archive with .jar extension"
+                    android:textSize="16dp"
+                    android:textColor="@android:color/black"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="center"
+            android:background="@android:color/holo_blue_dark"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:textAllCaps="true"
+            android:splitMotionEvents="false"
+            android:text="submit"/>
+    </LinearLayout>
+</ScrollView>

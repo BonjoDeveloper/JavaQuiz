@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="_2_which_tool_is_included_in_the_jdk">2. Which tool is included in the JDK?</string>
+    <string name="_4_which_one_of_the_following_statements_is_true">4. Which one of the following statements is true?</string>
+    <string name="java_has_a_huge_developer_community">Java has a huge developer community</string>
+    <string name="java_is_used_only_in_web_and_mobile_applications">Java is used only in web and mobile applications</string>
+    <string name="submit">Submit</string>
+    <string name="the_same_bytecode_can_be_run_on_different_jvms">The same bytecode can be run on different JVMS</string>
+    <string name="using_java_source_files">Using .java source files</string>
+    <string name="using_java_archive_with_jar_extension">Using Java archive with .jar extension</string>
+    <string name="java">java</string>
+    <string name="javac">javac</string>
+</resources>
